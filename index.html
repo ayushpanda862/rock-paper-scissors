@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="board">
+      <div id="player">
+        <div class="moves pmoves">
+          <button id="prock" class="move rock"></button>
+          <button id="ppaper" class="move paper"></button>
+          <button id="pscissors" class="move scissors"></button>
+        </div>
+        <button id="newgame" class="hide newgame"><h2>New Game</h2></button>
+      </div>
+      <div id="bot">
+        <div class="moves bmoves">
+          <button id="brock" class="hidden rock"></button>
+          <button id="bpaper" class="hidden paper"></button>
+          <button id="bscissors" class="hidden scissors"></button>
+        </div>
+        <button id="newgame" class="hide newgame">New Game</button>
+
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
